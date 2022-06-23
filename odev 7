@@ -1,0 +1,14 @@
+SELECT *
+FROM film
+GROUP BY rating;
+
+SELECT *
+FROM film
+GROUP BY replacement_cost ;
+HAVING  Count(*)  > 50;
+
+select count (store_id ) from customer
+
+select count ( country_id ) from city 
+group by country_id
+
